@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Tegal - Surga Wisata & Kuliner</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">
+                <i class="bi bi-geo-alt-fill text-warning"></i>
+                Visit Tegal
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#destinasi">Destinasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kuliner">Kuliner</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kontak">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="swiper hero-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide hero-slide hero-slide-1">
+                    <div class="hero-overlay"></div>
+                    <div class="hero-content">
+                        <h1 class="hero-title">Menjelajahi Tegal</h1>
+                        <p class="hero-subtitle">Surga Wisata & Kuliner</p>
+                        <a href="#destinasi" class="btn btn-warning btn-lg mt-3">
+                            <i class="bi bi-compass"></i> Jelajahi Sekarang
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide hero-slide hero-slide-2">
+                    <div class="hero-overlay"></div>
+                    <div class="hero-content">
+                        <h1 class="hero-title">Destinasi Wisata Kota Tegal</h1>
+                        <p class="hero-subtitle">Nikmati keindahan Tegal yang memukau</p>
+                        <a href="#destinasi" class="btn btn-warning btn-lg mt-3">
+                            <i class="bi bi-water"></i> Lihat Destinasi
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide hero-slide hero-slide-3">
+                    <div class="hero-overlay"></div>
+                    <div class="hero-content">
+                        <h1 class="hero-title">Kuliner Khas Tegal</h1>
+                        <p class="hero-subtitle">Rasakan kelezatan makanan tradisional</p>
+                        <a href="#kuliner" class="btn btn-warning btn-lg mt-3">
+                            <i class="bi bi-cup-hot"></i> Cicipi Kuliner
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!-- Destinasi Wisata Section -->
+    <section id="destinasi" class="py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Destinasi Wisata Populer</h2>
+                    <p class="section-subtitle">Temukan keindahan tersembunyi di Kota Tegal</p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-6 col-md-6">
+                    <div class="destination-card">
+                        <div class="destination-image">
+                            <img src="PAI.jpg" alt="Pantai Alam Indah" class="img-fluid">
+                            <div class="destination-overlay">
+                                <div class="destination-content">
+                                    <h4>Pantai Alam Indah</h4>
+                                    <p>Pantai dengan pasir putih dan air laut yang jernih, cocok untuk berenang dan bersantai bersama keluarga.</p>
+                                    <div class="destination-features">
+                                        <span class="badge bg-warning text-dark">Pantai</span>
+                                        <span class="badge bg-info">Keluarga</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 col-md-6">
+                    <div class="destination-card">
+                        <div class="destination-image">
+                            <img src="Gunung-slamet.jpg.webp" alt="Gunung Slamet" class="img-fluid">
+                            <div class="destination-overlay">
+                                <div class="destination-content">
+                                    <h4>Gunung Slamet</h4>
+                                    <p>Gunung tertinggi di Jawa Tengah, Gunung Slamet menawarkan petualangan menantang dengan panorama alam yang memesona. Cocok bagi pendaki yang mencari pengalaman mendaki yang menantang dan memukau.</p>
+                                    <div class="destination-features">
+                                        <span class="badge bg-success">Gunung</span>
+                                        <span class="badge bg-danger">Hiking</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 col-md-6">
+                    <div class="destination-card">
+                        <div class="destination-image">
+                            <img src="Guci.jpg" alt="Museum Batik Tegal" class="img-fluid">
+                            <div class="destination-overlay">
+                                <div class="destination-content">
+                                    <h4>The Baron Hill Of Guci</h4>
+                                    <p>Terletak di lereng Gunung Slamet, Guci dikenal dengan pemandian air panas alaminya. Udara sejuk, panorama hijau, dan curug-curug indah menjadikannya tempat sempurna untuk relaksasi dan liburan keluarga..</p>
+                                    <div class="destination-features">
+                                        <span class="badge bg-primary">Budaya</span>
+                                        <span class="badge bg-secondary">Edukasi</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 col-md-6">
+                    <div class="destination-card">
+                        <div class="destination-image">
+                            <img src="AAT.jpg.webp" alt="Alun-alun Kota Tegal" class="img-fluid">
+                            <div class="destination-overlay">
+                                <div class="destination-content">
+                                    <h4>Alun-alun Kota Tegal</h4>
+                                    <p>Pusat kota yang ramai dengan berbagai aktivitas, taman bermain, dan kuliner malam yang menarik.</p>
+                                    <div class="destination-features">
+                                        <span class="badge bg-warning text-dark">Kota</span>
+                                        <span class="badge bg-info">Kuliner</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kuliner Section -->
+    <section id="kuliner" class="py-5 bg-light">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Kuliner Khas Tegal</h2>
+                    <p class="section-subtitle">Cicipi kelezatan makanan tradisional yang autentik</p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="culinary-card">
+                        <div class="culinary-image">
+                            <img src="TEH-POCI.jpg" alt="Teh Poci" class="img-fluid">
+                        </div>
+                        <div class="culinary-content">
+                            <h5>Teh Poci</h5>
+                            <p>Minuman teh khas Tegal yang disajikan dalam poci tanah liat dengan rasa yang khas dan menyegarkan.</p>
+                            <div class="culinary-price">
+                                <span class="price">Rp 5.000 - 8.000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <div class="culinary-card">
+                        <div class="culinary-image">
+                            <img src="SATE-KAMBING.jpg.webp" alt="Sate Kambing" class="img-fluid">
+                        </div>
+                        <div class="culinary-content">
+                            <h5>Sate Kambing Cempe Lemu</h5>
+                            <p>Sate kambing legendaris dengan bumbu kacang yang gurih dan daging kambing yang empuk.</p>
+                            <div class="culinary-price">
+                                <span class="price">Rp 15.000 - 25.000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <div class="culinary-card">
+                        <div class="culinary-image">
+                            <img src="KETUPAT.webp" alt="Kupat Glabed" class="img-fluid">
+                        </div>
+                        <div class="culinary-content">
+                            <h5>Kupat Glabed</h5>
+                            <p>Makanan tradisional berupa ketupat dengan kuah santan gurih dan lauk pauk yang melimpah.</p>
+                            <div class="culinary-price">
+                                <span class="price">Rp 12.000 - 18.000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <div class="culinary-card">
+                        <div class="culinary-image">
+                            <img src="NASI-LENGKO.webp" alt="Lengko" class="img-fluid">
+                        </div>
+                        <div class="culinary-content">
+                            <h5>Nasi Lengko</h5>
+                            <p>Salad tradisional dengan tahu, tempe, mentimun, tauge, dan bumbu pecel yang segar dan sehat.</p>
+                            <div class="culinary-price">
+                                <span class="price">Rp 8.000 - 12.000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="kontak" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-title mb-4">Hubungi Kami</h2>
+                    <p class="section-subtitle mb-5">Butuh informasi lebih lanjut? Jangan ragu untuk menghubungi kami!</p>
+                    
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="bi bi-geo-alt-fill"></i>
+                                </div>
+                                <h5>Alamat</h5>
+                                <p>Jl. Pancasila No. 1<br>Kota Tegal, Jawa Tengah</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="bi bi-telephone-fill"></i>
+                                </div>
+                                <h5>Telepon</h5>
+                                <p>(0283) 123-4567<br>+62 812-3456-7890</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="bi bi-envelope-fill"></i>
+                                </div>
+                                <h5>Email</h5>
+                                <p>info@visittegal.com<br>tourism@tegal.go.id</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5 class="text-warning mb-3">
+                        <i class="bi bi-geo-alt-fill"></i> Visit Tegal
+                    </h5>
+                    <p>Jelajahi keindahan Kota Tegal dengan destinasi wisata yang menawan dan kuliner yang menggugah selera.</p>
+                    <div class="social-links">
+                        <a href="#" class="me-3"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="me-3"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="me-3"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6 class="text-warning mb-3">Menu</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#destinasi">Destinasi</a></li>
+                        <li><a href="#kuliner">Kuliner</a></li>
+                        <li><a href="#kontak">Kontak</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h6 class="text-warning mb-3">Destinasi Populer</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Pantai Alam Indah</a></li>
+                        <li><a href="#">Gunung Slamet</a></li>
+                        <li><a href="#">Museum Batik</a></li>
+                        <li><a href="#">Alun-alun Tegal</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h6 class="text-warning mb-3">Kuliner Khas</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Teh Poci</a></li>
+                        <li><a href="#">Sate Kambing</a></li>
+                        <li><a href="#">Kupat Glabed</a></li>
+                        <li><a href="#">Lengko</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <hr class="my-4">
+            
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2025 Visit Tegal. by @yusufzamzamii_.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">Made with Yusuf Zamzami <i class="bi bi-heart-fill text-danger"></i> for Tegal Tourism</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
